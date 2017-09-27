@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: '微软雅黑';
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.header-logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  height: 70px;
+  width: 60px;
+  background-image: url('./img/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-logo a {
+  display: block;
+  height: 100%;
+}
+
+.header-nav {
+  display: inline-block;  
+  vertical-align: top;
+}
+
+.header-nav-item {
+  display: inline-block;
+}
+.header-nav-item.active {
+  color: #3498db;
+}
+
+.header-nav-item a {
+  display: block;
+  height: 62px;
+  line-height: 62px;
+  padding: 0 24px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  transition: border-top-color .3s;
+}
+
+.header-nav-item a:hover {
+  border-top-color: #3498db;
+}
+
+.header-tool {
+  float: right;
+}
+
+.header-tool > div {
+  display: inline-block;
+  margin: 23px 0;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 14px;
+  vertical-align: middle;
+  border-left: 1px solid #ecf0f1;
+}
+
+.header-tool-search img {
+  vertical-align: middle;
+}
+
+.header-tool-login {
+  color: #3498db;
+}
+
+.main {
+  height: 300px;
+  background-color: #ddd;
+}
