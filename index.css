@@ -408,6 +408,70 @@ body {
   margin-left: -285px;
 }
 
+.ad-title {
+  display: block;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  margin: 15px 0;
+  padding: 10px 0;
+  color: #7c7c7c;
+}
+
+.ad-list {
+  margin-top: 17px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.5);
+}
+
+.ad-item-link {
+  display: block;
+  position: relative;
+}
+
+.ad-item-link:hover .ad-item-background {
+  opacity: 1;
+}
+
+.ad-item-background {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all .3s;
+}
+
+.ad-item-background-content {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  right: 0}
+
+.ad-item-background-memo {
+
+}
+
+.ad-item-cover {
+  display: block;
+}
+
+.ad-more {
+  display: block;
+  margin: 0 auto;
+  height: 36px;
+  width: 43px;
+  font-size: 12px;
+  color: #7c7c7c;
+  text-align: center;
+  line-height: 28px;
+  background: url(./img/bg-more.png);
+}
+
 .footer {
   padding: 40px 0;
 }
